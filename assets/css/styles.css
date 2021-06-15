@@ -457,6 +457,7 @@ img {
   transform: rotate(-180deg);
 }
 /*==================== QUALIFICATION ====================*/
+
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -512,9 +513,10 @@ img {
 .qualification__active [data-content] {
   display: block;
 }
-.qualification__button.qualification__active {
+.qualification__button .qualification__active {
   color: var(--first-color);
 }
+
 /*==================== SERVICES ====================*/
 .services__container {
   gap: 1.5rem;
